@@ -1,19 +1,27 @@
 Data Analytics Project: Customer Shopping Behavior Analysis
+
 📋 Overview
+
 This project analyzes customer shopping behavior using transactional data from 3,900 purchases across various product categories (p. 1). The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to guide strategic business decisions.
+
 📊 Dataset
+
 Source: Transactional data from a business.
 Rows: 3,900 
 Columns: 18 
 Key Features: Customer demographics (Age, Gender, Location, Subscription Status), Purchase details (Item Purchased, Category, Purchase Amount, Season), and shopping behavior (Discount Applied, Frequency of Purchases, Review Rating, Shipping Type).
 Missing Data: 37 values in the Review Rating column were handled.
+
 🛠️ Tools & Technologies
+
 Languages: Python (Pandas, NumPy, Matplotlib/Seaborn)
 Database: PostgreSQL
 Visualization: Power BI
 Reporting: Microsoft Word / PDF
 Presentation: Gamma (AI-assisted PPT)
+
 🚀 Project Steps
+
 1. Data Ingestion & EDA (Python)
 Data preparation and cleaning were performed in Python.
 Used pandas for data loading and initial exploration with df.info() and .describe().
